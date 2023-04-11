@@ -1,0 +1,16 @@
+This file aims at setting the groundwork for the general style of this repo:
+
+
+ - Naming of vairiables and functions: As clear and comprehensible as possible: Main goal is fast understanding
+    - abbreviations only when it is easily understandible what is abbreviated
+    - similar functionalities should be named in a similar way (e.g. logging functionality same / identical names)
+
+ - Error processing:
+    - Error Reporting: Error messages should be thrown directly at the place of occurence
+    - Each function should give an error messages: this error message is used for debugging/testing, as well as terminating the processing if severe errors occur
+
+Spacing:
+ - between two functions or two main functionalities 2 lines 
+ - One line elsewehere to separate blocks for readability 
+ - Comments do not count as lines
+
